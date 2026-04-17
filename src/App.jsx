@@ -14,6 +14,7 @@ function App() {
       
       <section>
           <Amanda />
+          <Ingrid />
       </section>
      </main>
     </>
