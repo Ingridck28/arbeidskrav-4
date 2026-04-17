@@ -10,7 +10,7 @@ function App() {
     <Header />
 
      <main>
-      <p>Arbeidskrav 4</p>
+      <h2>Arbeidskrav 4</h2>
       
       <section>
           <Amanda />
