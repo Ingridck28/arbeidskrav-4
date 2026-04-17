@@ -1,6 +1,6 @@
-
 import Header from './components/Header'
 import Amanda from './components/Amanda'
+import Ingrid from './components/Ingrid'
 
 function App() {
   
