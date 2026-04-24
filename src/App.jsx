@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Amanda from './components/Amanda'
 import Ingrid from './components/Ingrid'
 import Natasja from './components/Natasja'
+import Arbeidskrav from './components/Arbeidskrav'
 
 function App() {
   
@@ -18,6 +19,8 @@ function App() {
           <Ingrid />
           <Natasja />
       </section>
+
+      <Arbeidskrav />
      </main>
     </>
   )
