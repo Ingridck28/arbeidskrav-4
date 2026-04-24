@@ -5,7 +5,7 @@ export default function Arbeidskrav() {
   const [krav, setKrav] = useState([])
 
   useEffect(() => {
-    client.fetch(`*[_type == "arbeidskrav"] | order(rekkefølge asc)`)
+    client.fetch(`*[_type == "arbeidskrav"] | order(order asc)`)
       .then((data) => setKrav(data))
   }, [])
 
