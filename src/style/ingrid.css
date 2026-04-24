@@ -1,0 +1,33 @@
+.ingrid-card {
+    background: #113165;
+    border-radius: 16px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border: 2px  #e0e0e0;
+  }
+  
+  
+  .ingrid-card h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    color: #eaeaea;
+  }
+  
+  .ingrid-card a {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #eaeaea;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .ingrid-card a {
+    text-decoration: underline;
+  }
+  
+  .ingrid-card p {
+    font-size: 0.9rem;
+    color: #eaeaea;
+  }

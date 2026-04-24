@@ -3,6 +3,7 @@ import Amanda from './components/Amanda'
 import Ingrid from './components/Ingrid'
 import Natasja from './components/Natasja'
 import Arbeidskrav from './components/Arbeidskrav'
+import './App.css'
 
 function App() {
   
