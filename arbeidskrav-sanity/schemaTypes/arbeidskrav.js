@@ -1,17 +1,22 @@
 export default {
     name: 'arbeidskrav',
-    type: 'document',
     title: 'Arbeidskrav',
+    type: 'document',
     fields: [
-        {
-            name: 'tittel',
-            type: 'string',
-            title: 'Tittel'
-        },
-        {
-            name: 'beskrivelse',
-            type: 'text',
-            title: 'Beskrivelse'
-        }
-    ]
-}
+      {
+        name: 'tittel',
+        title: 'Tittel',
+        type: 'string',
+      },
+      {
+        name: 'beskrivelse',
+        title: 'Beskrivelse',
+        type: 'text',
+      },
+      {
+        name: 'order',
+        title: 'Order',
+        type: 'number',
+      },
+    ],
+  }
