@@ -31,3 +31,12 @@
     font-size: 0.9rem;
     color: #eaeaea;
   }
+
+  .ingrid-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid white;
+  }
