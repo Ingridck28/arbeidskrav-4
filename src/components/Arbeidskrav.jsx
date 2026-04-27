@@ -10,8 +10,8 @@ export default function Arbeidskrav() {
   }, [])
 
   return (
-    <section>
-      <h2>Arbeidskrav</h2>
+    <section className="arbeidskrav">
+      <h2>Semesterets arbeidskrav:</h2>
 
       {krav.map((item) => (
         <article key={item._id}>
