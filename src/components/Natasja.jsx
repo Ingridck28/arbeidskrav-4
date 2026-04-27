@@ -1,7 +1,10 @@
+import '../style/natasja.css'
+import bilde from '../assets/natasja.jpg'
+
 export default function Natasja (){
     return (
-    <article>
-        <img />
+    <article className="card-Natasja">
+       <img src={bilde} alt="Bilde av Natasja"/>
 
         <h2>Natasja</h2>
 
